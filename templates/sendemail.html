@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+    
+    <title>REGISTRATIONS</title>
+</head>
+<body>
+    
+    <div class="row">
+		<div class="col-lg-6">
+			<div class="box-element" id="form-wrapper">
+                <h1 id="form-button" class="btn btn-success btn-block">SEND EMAIL FORM</h1>
+				<form id="form" action="{{url_for('send_message')}}" method="post">
+					<div id="user-info">
+						<div class="form-field">
+	
+						<div class="form-field">
+							<input required class="form-control" type="email" name="email" placeholder="Your Email..">
+						</div>
+                        <div class="form-field">
+							<input required class="form-control" type="text" name="subject" placeholder="write your subject..">
+						</div>
+					</div>
+					
+					<div id="shipping-info">
+						<hr>
+						<p>FLASK MAIL SENDING APP:</p>
+						<hr>
+						<div class="form-field">
+							<textarea class="form-control" name="message" cols="30" placeholder="write your massege" required rows="True"></textarea> 
+						</div>
+		
+					<hr>
+					<input id="form-button" class="btn btn-success btn-block" type="submit" value="Send Massage">
+				</form>
+			</div>
+		</div>
+
+		
+	</div>
+</body>
+</html>

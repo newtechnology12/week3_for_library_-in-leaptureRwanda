@@ -1,0 +1,3 @@
+[console_scripts]
+pyscaffold = scaffold.__main__:main
+
