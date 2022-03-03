@@ -1,4 +1,6 @@
 # week3_for_library_-in-leaptureRwanda
+
+A Python library is a collection of related modules. It contains bundles of code that can be used repeatedly in different programs. It makes Python Programming simpler and convenient for the programmer. As we don’t need to write the same code again and again for different programs.
 **
 Why do we use Python libraries?**
 ==========================================
